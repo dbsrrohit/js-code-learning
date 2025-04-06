@@ -13,3 +13,10 @@ console.log(valueInNumber);
 // 1=> true; 0 => flase;
 // "" => false;
 // "Rohit" => true;
+
+let x = 3
+const y = ++x;
+
+console.log("x", x);
+console.log("y: ", y);
+
