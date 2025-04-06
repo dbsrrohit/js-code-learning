@@ -11,3 +11,23 @@
 
 // Arrays, Objects, Functions
 
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+UserOne = {
+    userName: "rohit",
+    Age: 23
+}
+
+UserTwo = UserOne;
+console.log(UserOne.userName);
+console.log(UserTwo.userName);
+
+UserTwo.userName = "Sangeeta";
+
+console.log(UserOne.userName);
+console.log(UserOne.userName);
+
+
+
