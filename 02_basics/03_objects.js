@@ -1,5 +1,7 @@
 // there a two methods of declaring Object
-// 1. Singleton object.create
+// 1. Singleton 
+// object.create
+// 2. Object Literals
 
 //  Object Literals
 const mySym = Symbol("KeyName")
