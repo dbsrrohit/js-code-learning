@@ -12,15 +12,15 @@ const JsUser = {
     isLoggedIn: false
 } // This is a JsUser object is created.
 
-console.log(JsUser.name);
-console.log(JsUser["age"]);
-console.log(JsUser[mySym]);
-console.log(JsUser["email"]);
+// console.log(JsUser.name);
+// console.log(JsUser["age"]);
+// console.log(JsUser[mySym]);
+// console.log(JsUser["email"]);
 
 JsUser.email = "rohit@paaji.com"
 // Object.freeze(JsUser)
 JsUser.email = "sangeeta@uuloo.com"
-console.log(JsUser["email"]);
+// console.log(JsUser["email"]);
 
 JsUser.greetings = function() {
     console.log("hello User !");
@@ -29,6 +29,8 @@ JsUser.greetings = function() {
 JsUser.greetingsTwo = function () {
     console.log(`Hello user ${this.email}`);
 }
-console.log(JsUser.greetings());
-console.log(JsUser.greetingsTwo());
+// console.log(JsUser.greetings());
+JsUser.greetings();
+// console.log(JsUser.greetingsTwo());
+JsUser.greetingsTwo();
 
