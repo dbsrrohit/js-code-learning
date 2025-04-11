@@ -43,12 +43,12 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: CI} = course /* object destructure
+const {courseInstructor: CI} = course /* object destructure */
 
 // console.log(courseInstructor)
 console.log(CI);
 
-++++++++++++++++++++++ API +++++++++ JSON +++++++++
+// ++++++++++++++++++++++ API +++++++++ JSON +++++++++
 
 // {
 //     "name": "rohit",
