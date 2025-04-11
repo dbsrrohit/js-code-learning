@@ -56,4 +56,9 @@ console.log(CI);
 //     "price": "free"
 // }
 
+[
+    {},
+    {},
+    {}
 
+]
