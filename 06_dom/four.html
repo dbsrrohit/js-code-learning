@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM ! with Rohit</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName) {
+        const li = document.createElement('li');
+        console.log(langName);
+        li.innerHTML = langName
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("python")
+    function addOptiLanguage(langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage("textWali")
+
+    // Edit
+    function editLang(NewLang, index){
+        console.log(index)
+        const secondLang = document.querySelector('li:nth-child('+index+')')
+        const newli = document.createElement('li')
+        newli.textContent = NewLang
+        secondLang.replaceWith(newli)
+    }
+
+
+    editLang("teriwali", 2)
+</script>
+</html>
